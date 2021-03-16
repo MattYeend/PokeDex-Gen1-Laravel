@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use DB;
 use Illuminate\Database\Seeder;
 
 class TypesSeeder extends Seeder
@@ -13,7 +14,7 @@ class TypesSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('types')->insert(
+        DB::table('types')->insert([
 			[
 				'type' => 'Water',
 				'colours' => '#6890F0',
@@ -86,6 +87,6 @@ class TypesSeeder extends Seeder
 				'type' => 'Bug',
 				'colours' => NULL,
 			],
-        );
+		]);
     }
 }

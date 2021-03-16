@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use DB;
 use Illuminate\Database\Seeder;
 
 class PokedexSeeder extends Seeder
@@ -13,7 +14,7 @@ class PokedexSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pokedex')->insert(
+        DB::table('pokedex')->insert([
 			[
 				'id' => 1,
 				'name' => 'Bulbasaur',
@@ -26,7 +27,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 65,
 				'speed' => 45,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
         		'id' => 2,
@@ -40,7 +41,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 60,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 3,
@@ -54,7 +55,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 100,
         	    'speed' => 80,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 4,
@@ -68,7 +69,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 65,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 5,
@@ -82,7 +83,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 80,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 6,
@@ -96,7 +97,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 85,
         	    'speed' => 100,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 7,
@@ -110,7 +111,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 64,
         	    'speed' => 43,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 8,
@@ -124,7 +125,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 58,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 9,
@@ -138,7 +139,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 105,
         	    'speed' => 78,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 10,
@@ -152,7 +153,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 20,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 11,
@@ -166,7 +167,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 25,
         	    'speed' => 30,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 12,
@@ -180,7 +181,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 13,
@@ -194,7 +195,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 20,
         	    'speed' => 50,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 14,
@@ -208,7 +209,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 25,
         	    'speed' => 35,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 15,
@@ -222,7 +223,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 75,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 16,
@@ -236,7 +237,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 35,
         	    'speed' => 56,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 17,
@@ -250,7 +251,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 71,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 18,
@@ -264,7 +265,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 101,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 19,
@@ -278,7 +279,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 35,
         	    'speed' => 72,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 20,
@@ -292,7 +293,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 97,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 21,
@@ -306,7 +307,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 31,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 22,
@@ -320,7 +321,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 61,
         	    'speed' => 100,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 23,
@@ -334,7 +335,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 54,
         	    'speed' => 55,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 24,
@@ -348,7 +349,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 79,
         	    'speed' => 80,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 25,
@@ -362,7 +363,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 26,
@@ -376,7 +377,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 110,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 27,
@@ -390,7 +391,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 30,
         	    'speed' => 40,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 28,
@@ -404,7 +405,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 65,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 29,
@@ -418,7 +419,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 41,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 30,
@@ -432,7 +433,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 56,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 31,
@@ -446,7 +447,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 85,
         	    'speed' => 76,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 32,
@@ -460,7 +461,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 50,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 33,
@@ -474,7 +475,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 65,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 34,
@@ -488,7 +489,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 75,
         	    'speed' => 85,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 35,
@@ -502,7 +503,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 35,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 36,
@@ -516,7 +517,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 90,
         	    'speed' => 60,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 37,
@@ -530,7 +531,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 65,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 38,
@@ -544,7 +545,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 100,
         	    'speed' => 100,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 39,
@@ -558,7 +559,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 25,
         	    'speed' => 20,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 40,
@@ -572,7 +573,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 41,
@@ -586,7 +587,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 55,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 42,
@@ -600,7 +601,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 75,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 43,
@@ -614,7 +615,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 30,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 44,
@@ -628,7 +629,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 75,
         	    'speed' => 40,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 45,
@@ -642,7 +643,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 90,
         	    'speed' => 50,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 46,
@@ -656,7 +657,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 25,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 47,
@@ -670,7 +671,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 30,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 48,
@@ -684,7 +685,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 49,
@@ -698,7 +699,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 75,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 50,
@@ -712,7 +713,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 59,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 51,
@@ -726,7 +727,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 120,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 52,
@@ -740,7 +741,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 53,
@@ -754,7 +755,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 115,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 54,
@@ -768,7 +769,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 55,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 55,
@@ -782,7 +783,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 85,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 56,
@@ -796,7 +797,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 57,
@@ -810,7 +811,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 95,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 58,
@@ -824,7 +825,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 60,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 59,
@@ -838,7 +839,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 95,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 60,
@@ -852,7 +853,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 61,
@@ -866,7 +867,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 62,
@@ -880,7 +881,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 90,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 63,
@@ -894,7 +895,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 64,
@@ -908,7 +909,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 105,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 65,
@@ -922,7 +923,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 95,
         	    'speed' => 120,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 66,
@@ -936,7 +937,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 35,
         	    'speed' => 35,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 67,
@@ -950,7 +951,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 60,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 68,
@@ -964,7 +965,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 85,
         	    'speed' => 55,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 69,
@@ -978,7 +979,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 30,
         	    'speed' => 40,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 70,
@@ -992,7 +993,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 55,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 71,
@@ -1006,7 +1007,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 72,
@@ -1020,7 +1021,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 100,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 73,
@@ -1034,7 +1035,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 120,
         	    'speed' => 100,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 74,
@@ -1048,7 +1049,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 30,
         	    'speed' => 20,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 75,
@@ -1062,7 +1063,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 35,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 76,
@@ -1076,7 +1077,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 77,
@@ -1090,7 +1091,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 65,
         	    'speed' => 90,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 78,
@@ -1104,7 +1105,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 80,
         	    'speed' => 105,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 79,
@@ -1118,7 +1119,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 40,
         	    'speed' => 15,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 80,
@@ -1132,7 +1133,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 105,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 81,
@@ -1146,7 +1147,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 82,
@@ -1160,7 +1161,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 83,
@@ -1174,7 +1175,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 62,
         	    'speed' => 60,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 84,
@@ -1188,7 +1189,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 35,
         	    'speed' => 75,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 85,
@@ -1202,7 +1203,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 60,
         	    'speed' => 100,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 86,
@@ -1216,7 +1217,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 70,
         	    'speed' => 45,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 87,
@@ -1230,7 +1231,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 95,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 88,
@@ -1244,7 +1245,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 50,
         	    'speed' => 25,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 89,
@@ -1258,7 +1259,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 100,
         	    'speed' => 50,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 90,
@@ -1272,7 +1273,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 25,
         	    'speed' => 40,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 91,
@@ -1286,7 +1287,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 92,
@@ -1300,7 +1301,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 35,
         	    'speed' => 80,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 93,
@@ -1314,7 +1315,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 55,
         	    'speed' => 95,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 94,
@@ -1328,7 +1329,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 75,
         	    'speed' => 110,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 95,
@@ -1342,7 +1343,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 45,
         	    'speed' => 70,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 96,
@@ -1356,7 +1357,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 90,
         	    'speed' => 42,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
         		'id' => 97,
@@ -1370,7 +1371,7 @@ class PokedexSeeder extends Seeder
             	'sp_defence' => 115,
         	    'speed' => 67,
     	        'generation' => 1,
-	            'legendary' => 0
+	            'legendary' => 0,
         	],
         	[
 				'id' => 98,
@@ -1384,7 +1385,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 25,
 				'speed' => 50,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 99,
@@ -1398,7 +1399,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 50,
 				'speed' => 75,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 100,
@@ -1412,7 +1413,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 55,
 				'speed' => 100,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 101,
@@ -1426,7 +1427,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 80,
 				'speed' => 140,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 102,
@@ -1440,7 +1441,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 45,
 				'speed' => 40,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 103,
@@ -1454,7 +1455,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 65,
 				'speed' => 55,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
         	[
 				'id' => 104,
@@ -1468,7 +1469,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 50,
 				'speed' => 35,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 105,
@@ -1482,7 +1483,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 80,
 				'speed' => 45,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 106,
@@ -1496,7 +1497,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 110,
 				'speed' => 87,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 107,
@@ -1510,7 +1511,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 110,
 				'speed' => 76,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 108,
@@ -1524,7 +1525,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 75,
 				'speed' => 30,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 109,
@@ -1538,7 +1539,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 45,
 				'speed' => 35,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 110,
@@ -1552,7 +1553,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 60,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 111,
@@ -1566,7 +1567,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 30,
 				'speed' => 25,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 112,
@@ -1580,7 +1581,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 45,
 				'speed' => 40,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 113,
@@ -1594,7 +1595,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 105,
 				'speed' => 50,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 114,
@@ -1608,7 +1609,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 40,
 				'speed' => 60,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 115,
@@ -1622,7 +1623,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 80,
 				'speed' => 90,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 116,
@@ -1636,7 +1637,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 25,
 				'speed' => 60,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 117,
@@ -1650,7 +1651,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 45,
 				'speed' => 85,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 118,
@@ -1664,7 +1665,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 50,
 				'speed' => 63,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 119,
@@ -1678,7 +1679,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 80,
 				'speed' => 68,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 120,
@@ -1692,7 +1693,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 55,
 				'speed' => 85,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 121,
@@ -1706,7 +1707,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 85,
 				'speed' => 115,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 122,
@@ -1720,7 +1721,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 120,
 				'speed' => 90,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 123,
@@ -1734,7 +1735,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 80,
 				'speed' => 105,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 124,
@@ -1748,7 +1749,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 95,
 				'speed' => 95,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 125,
@@ -1762,7 +1763,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 85,
 				'speed' => 105,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 126,
@@ -1776,7 +1777,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 85,
 				'speed' => 93,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 127,
@@ -1790,7 +1791,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 85,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 128,
@@ -1804,7 +1805,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 110,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 129,
@@ -1818,7 +1819,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 20,
 				'speed' => 80,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 130,
@@ -1832,7 +1833,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 100,
 				'speed' => 81,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 131,
@@ -1846,7 +1847,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 95,
 				'speed' => 60,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 132,
@@ -1860,7 +1861,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 48,
 				'speed' => 48,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 133,
@@ -1874,7 +1875,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 65,
 				'speed' => 55,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 134,
@@ -1888,7 +1889,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 95,
 				'speed' => 65,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 135,
@@ -1902,7 +1903,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 95,
 				'speed' => 130,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 136,
@@ -1916,7 +1917,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 110,
 				'speed' => 65,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 137,
@@ -1930,7 +1931,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 75,
 				'speed' => 40,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 138,
@@ -1944,7 +1945,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 55,
 				'speed' => 35,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 139,
@@ -1958,7 +1959,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 55,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 140,
@@ -1972,7 +1973,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 45,
 				'speed' => 55,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 141,
@@ -1986,7 +1987,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 80,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 142,
@@ -2000,7 +2001,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 75,
 				'speed' => 130,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 143,
@@ -2014,7 +2015,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 110,
 				'speed' => 30,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 144,
@@ -2028,7 +2029,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 125,
 				'speed' => 85,
 				'generation' => 1,
-				'legendary' => 1
+				'legendary' => 1,
         	],
 			[
 				'id' => 145,
@@ -2042,7 +2043,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 90,
 				'speed' => 100,
 				'generation' => 1,
-				'legendary' => 1
+				'legendary' => 1,
         	],
 			[
 				'id' => 146,
@@ -2056,7 +2057,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 85,
 				'speed' => 90,
 				'generation' => 1,
-				'legendary' => 1
+				'legendary' => 1,
         	],
 			[
 				'id' => 147,
@@ -2070,7 +2071,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 50,
 				'speed' => 50,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
         	],
 			[
 				'id' => 148,
@@ -2084,7 +2085,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 70,
 				'speed' => 70,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 149,
@@ -2098,7 +2099,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 100,
 				'speed' => 80,
 				'generation' => 1,
-				'legendary' => 0
+				'legendary' => 0,
 			],
 			[
 				'id' => 150,
@@ -2112,7 +2113,7 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 90,
 				'speed' => 130,
 				'generation' => 1,
-				'legendary' => 1
+				'legendary' => 1,
 			],
 			[
 				'id' => 151,
@@ -2126,8 +2127,8 @@ class PokedexSeeder extends Seeder
 				'sp_defence' => 100,
 				'speed' => 100,
 				'generation' => 1,
-				'legendary' => 1
+				'legendary' => 1,
 			]
-		);
+		]);
 	}
 }

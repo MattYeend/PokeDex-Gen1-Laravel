@@ -11,6 +11,6 @@ class Type extends Model
      */
     public function pokedex()
     {
-        return $this->belongsTo('App\Models\PokeDex');
+        return $this->belongsTo('App\Models\Pokedex');
     }
 }

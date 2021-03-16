@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class PokeDex extends Model
+class Pokedex extends Model
 {
     /**
      * Get all of the colors in Type for Pokedex.
