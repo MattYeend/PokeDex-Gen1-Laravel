@@ -711,7 +711,7 @@ class PokedexSeeder extends Seeder
     	        'defence' => 25,
 	            'sp_attack' => 35, 
             	'sp_defence' => 45,
-        	    'speed' => 59,
+        	    'speed' => 95,
     	        'generation' => 1,
 	            'legendary' => 0,
         	],
