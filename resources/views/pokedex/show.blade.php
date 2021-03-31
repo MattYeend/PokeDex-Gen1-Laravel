@@ -31,9 +31,9 @@
         <div class="col-xl-6 col-md-6 col-12">
             <p>HP - {{ $pokemon->HP }}</p>
             <p>Attack - {{ $pokemon->attack }}</p>
-            <p>Defense - {{ $pokemon->defense }}</p>
-            <p>Sp. Attack - {{ $pokemon->sp_atk }}</p>
-            <p>Sp. Defense - {{ $pokemon->sp_def }}</p>
+            <p>Defense - {{ $pokemon->defence }}</p>
+            <p>Sp. Attack - {{ $pokemon->sp_attack }}</p>
+            <p>Sp. Defense - {{ $pokemon->sp_defence }}</p>
             <p>Defense - {{ $pokemon->speed }}</p>
         </div>
         <div class="col-xl-3 col-md-3 col-0">
