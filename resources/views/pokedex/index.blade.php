@@ -34,7 +34,7 @@
           @else
             <p class="id-number">#{{ $pokemon->id }}</p>
           @endif
-          <img class="card-img-top" src="/images/{{ $pokemon->name }}.png" alt="{{ $pokemon->name }}">
+          <img class="card-img-top" src="/img/{{ $pokemon->name }}.png" alt="{{ $pokemon->name }}">
           <div class="card-body">
             <h5 class="card-title">{{ $pokemon->name }}</h5>
             <p class="poketype1" style="display:none">{{ $pokemon['type1'] }}</p>
