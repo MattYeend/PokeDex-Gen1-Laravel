@@ -15,7 +15,7 @@
 	</head>
 	<body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0.5rem 60px">
-		<img src="/css/pokedex-app-icon.png" alt="pokedex-logo" style="width:40px; margin-right: 1rem">
+		<img src="img/pokedex-app-icon.png" alt="pokedex-logo" style="width:40px; margin-right: 1rem">
 		<a class="navbar-brand" href="{{ route('pokedex.index') }}">Pokedex</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
